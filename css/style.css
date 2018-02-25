@@ -1,0 +1,74 @@
+
+/* this is a comment in the CSS and JS*/
+
+body{
+	font-family: Helvetica, Arial, sans-serif; /*will go for default fot for the browser user is using*/	
+background-image: url(../images/background.jpg); /*dots tell the file path to go back a level to fins where the image is*/
+padding: 10px;
+background-repeat: none;
+background-size: cover;
+background-attachment: fixed;
+background-position: 50% 50%;
+
+}
+
+/*use a . to reference a class in the html and style it */
+
+.main {
+	background-color: rgba(255,255,255,0.8);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+
+
+}
+h1 {
+	text-align: center;
+	font-family: 'Metrophobic', sans-serif;
+	font-size: 40px;
+
+}
+h2 { 
+	text-align: center; 
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 0;
+}
+
+h3 { 
+margin-bottom: 0px; 
+cursor: pointer}
+
+h3 + * {
+	display: none;
+}
+
+.profile-picture {
+	border:2px solid black; /* have to list 3 properties*/
+	padding: 10px;
+	display: block; /*block level - means it goes accross the page in a block, opposit to inline. Could also use 'float' to put other items next to it*/
+	margin: 0 auto; /*ensures it stays centred depending on browser - no margin at the top and auto margin either side*/
+width: 200px;
+}
+
+p,
+ol,
+ul {
+	line-height: 1.6;
+	list-style: none;
+
+}
+a { 
+	color: black; 
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+
+}
